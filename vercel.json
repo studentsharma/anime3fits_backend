@@ -7,9 +7,10 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "dist/server.js"
-    }
-  ]
+      {
+          "src": "/(.*)",
+          "dest": "dist/server.js"
+        }
+    ],
+    "buildCommand": "npm install && npm run build"
 }
